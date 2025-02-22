@@ -1,0 +1,105 @@
+<html>
+ <head>
+  <title>
+   My Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" src="foto.jpg"/>  
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <header class="bg-white shadow">
+   <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+    <h1 class="text-3xl font-bold text-gray-800">
+     Portofolio 
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#about">
+        Tentang
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#projects">
+        Projects 
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#contact">
+        Kontak
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <section class="container mx-auto px-4 py-12" id="about">
+   <div class="flex flex-col md:flex-row items-center">
+    <img alt="Profile picture of the portfolio owner" class="rounded-full w-32 h-32 md:w-48 md:h-48 mb-4 md:mb-0" height="150" src="foto.jpg" width="150"/>
+    <div class="md:ml-6">
+     <h2 class="text-2xl font-bold text-gray-800">
+      Tentang Saya
+     </h2>
+     <p class="text-gray-600 mt-2">
+      Saya adalah seorang siswa di bidang kejuruan rekayasa perangkat lunak (RPL).saya sedang memulai perjalanan belajar pemrograman dengan html dan javascript. Saya masih dalam tahap mengenal konsep dasar seperti variabel, tipe data, dan pengkondisian, namun saya sangat bersemangat untuk terus belajar dan berkembang.
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="bg-white py-12" id="projects">
+   <div class="container mx-auto px-4">
+    <h2 class="text-2xl font-bold text-gray-800 mb-6">
+     Projects yang pernah saya buat
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <div class="bg-gray-100 p-4 rounded-lg shadow">
+      <img alt="Screenshot of Project 1" class="rounded-lg mb-4" height="200" src="blogger.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800">
+       Project 1
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Membuat Blogger
+      </p>
+     </div>
+     <div class="bg-gray-100 p-4 rounded-lg shadow">
+      <img alt="Screenshot of Project 2" class="rounded-lg mb-4" height="200" src="youtube.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800">
+       Project 2
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Membuat Vidio Interaktif
+      </p>
+     </div>
+      <div class="bg-gray-100 p-4 rounded-lg shadow">
+      <img alt="Screenshot of Project 2" class="rounded-lg mb-4" height="200" src="todolist.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800">
+       Project 3
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Membuat Aplikasi To-do List
+      </p>
+     </div>
+  <section class="container mx-auto px-4 py-12" id="contact">
+   <h2 class="text-2xl font-bold text-gray-800 mb-6">
+   <center >Hubungi saya</center>
+   </h2>
+   <div class="flex flex-col md:flex-row items-center">
+    <img alt="QR code for contact information" class="w-32 h-32 md:w-48 md:h-48 mb-4 md:mb-0" height="150" src="code.jpg" width="150"/>
+    <div class="md:ml-6">
+     <p class="text-gray-600">
+      Pindai kode QR untuk mendapatkan informasi kontak saya.
+     </p>
+    </div>
+   </div>
+  </section>
+  <footer class="bg-white shadow py-6">
+   <div class="container mx-auto px-4 text-center">
+    <p class="text-gray-600">
+     © 2025 Portfolio Saya. Hak cipta dilindungi undang-undang.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
